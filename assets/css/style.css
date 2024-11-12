@@ -515,14 +515,17 @@ label {
   display: none;
 }
 /*-------------------------------------------------------2. HOME-CONTENT-STYLE ------------------------------------------------------*/
+.content {
+  width: 100%;
+}
 .content-title {
   position: absolute;
-  top: 154px;
-  left: 907px;
+  top: 152px;
+  left: 50%;
   background: var(--orange-color);
   color: var(--light-color);
   border-radius: 9px;
-  width: 257px;
+  width: 220px;
   z-index: 5;
   box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
 }
