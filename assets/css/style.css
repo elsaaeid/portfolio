@@ -42,9 +42,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   position: fixed;
   z-index: 100;
   background: var(--orange-color);
@@ -53,15 +50,19 @@ header {
   height: 135px;
   box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
 }
-.left-area {
-  width: 127%;
-  position: inherit;
-  left: 930px;
-  top: 12px;
-  display: grid;
-  grid-template-areas: "overlap";
-  place-content: center;
-  text-transform: uppercase;
+.header-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.basic-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .left-area > div {
   background-clip: text;
@@ -85,7 +86,7 @@ div.bg {
   filter: drop-shadow(5px 15px 15px black);
   transform: scaleY(1.05);
   transform-origin: top;
-  font-size: 25px;
+  font-size: 18px;
   position: absolute;
   text-shadow: 0px 25px 0px rgb(0 0 0 / 15%);
 }
@@ -98,264 +99,58 @@ div.fg {
   );
   color: var(--orange-color);
   transform: scale(1);
-  position: absolute;
-  font-size: 25px;
-}
-.left-area:hover {
-  background-color: var(--light-color);
-}
-.button {
-  float: right;
-  width: 45px;
-  height: 45px;
-  margin-top: -10px;
-  background: var(--light-color);
-  border-radius: 50px;
-  cursor: pointer;
-  overflow: hidden;
-  transition: 0.5s;
-  transition-property: width;
-  position: relative;
-}
-header .button {
-  float: right;
-  width: 45px;
-  height: 45px;
-  margin-top: -10px;
-  background: var(--light-color);
-  border-radius: 50px;
-  cursor: pointer;
-  overflow: hidden;
-  transition: 0.5s;
-  transition-property: width;
-  position: relative;
-}
-.button:hover {
-  width: 220px;
-}
-.button .icon1 {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
-  box-sizing: border-box;
-  color: var(--orange-color);
-  line-height: 55px;
-  text-align: center;
-  transition: 0.5s;
-  transition-property: background;
-  position: absolute;
-  top: -4px;
-  left: -4px;
-}
-.button:hover .icon1 {
-  background: var(--orange-color);
-  position: absolute;
-  top: 0px;
-  left: 1px;
-}
-.button .icon1 a {
-  font-size: 40px;
-  line-height: 30px;
-  transition: 0.5s;
-  transition-property: color;
-  position: absolute;
-  top: 5px;
-  left: 10px;
-}
-header .button .icon1 a {
-  font-size: 38px;
-  line-height: 43px;
-  transition: 0.5s;
-  transition-property: color;
-  position: absolute;
-  top: 7px;
-  left: 10px;
-}
-.whatsapp-icon span a {
-  text-decoration: none;
-  color: var(--secondry-color);
-  line-height: 47px;
-  position: fixed;
-  display: none;
-}
-.bann-icons .button:hover .icon1 a i {
-  color: #ffffff;
-  position: absolute;
-  top: -4px;
-  left: -4px;
-}
-.one-icon span a {
-  text-decoration: none;
-  color: #007bff;
-  line-height: 47px;
-  position: absolute;
-  left: 74px;
-}
-.whatsapp-icon:hover span a {
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 51px;
-  text-align: center;
-  text-decoration: none;
-  animation: none;
-  color: var(--secondry-color);
-}
-.button:hover ~ span a {
-  animation: none;
-}
-
-.bann-icons .button:hover {
-  width: 210px;
-}
-i.fab.fa-whatsapp {
-  color: var(--orange-color);
-}
-i.fab.fa-facebook {
-  color: var(--orange-color);
-}
-a.github {
-  position: absolute;
-  top: 13px;
-  left: 67px;
-  text-decoration: none;
-  color: #4d60bddb;
-}
-i.fab.fa-github {
-  color: var(--orange-color);
-}
-i.fab.fa-linkedin-in {
-  color: var(--orange-color);
-}
-a.linkedin-in {
-  position: absolute;
-  top: 11px;
-  left: 60px;
-  text-decoration: none;
-  color: #52a6ff;
+  font-size: 18px;
 }
 .bann-icons {
-  z-index: 20;
-  position: absolute;
-  top: 12px;
-  height: 155px;
-  width: 248px;
-  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.bann-icons .button .icon2 {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
-  box-sizing: border-box;
+.button-icon {
+  width: 30px;
+  height: 30px;
   background: var(--light-color);
-  line-height: 55px;
-  text-align: center;
-  transition: 0.5s;
-  transition-property: background;
-}
-.bann-icons .button:hover .icon2 {
-  background: #007bff;
-  position: absolute;
-  top: 1px;
-  left: 3px;
-}
-.bann-icons .button .icon2 a {
-  font-size: 33px;
-  line-height: 47px;
-  transition: 0.5s;
-  transition-property: color;
-}
-.bann-icons .button:hover .icon2 a i {
-  color: #ffffff;
-  box-sizing: border-box;
-  font-size: 37px;
-  border-radius: 104px;
-}
-.bann-icons .button .icon3 {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
   border-radius: 50px;
-  box-sizing: border-box;
-  background: var(--light-color);
-  line-height: 55px;
+  cursor: pointer;
+  overflow: hidden;
+  transition-property: width;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-icon:hover {
+  transition: ease-in-out 0.5s;
+  width: max-content;
+  padding: 15px;
+}
+.button-icon li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.button-icon li a, 
+.button-icon li span a {
+  color: var(--secondry);
+  margin: 2px;
+}
+.button-icon li span a {
+  text-decoration: none;
+  display: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+.button-icon:hover span a {
+  display: block;
   text-align: center;
-  transition: 0.5s;
-  transition-property: background;
+  text-decoration: none;
+  animation: none;
 }
-.bann-icons .button:hover .icon3 {
-  background: #4d60bddb;
-}
-.bann-icons .button .icon3 a {
-  font-size: 35px;
-  line-height: 52px;
-  transition: 0.5s;
-  transition-property: color;
-  position: absolute;
-  left: 6px;
-  top: -1px;
-}
-.bann-icons .button:hover .icon3 a i {
-  color: var(--light-color);
-  box-sizing: border-box;
-  font-size: 35px;
-  position: absolute;
-  top: 7px;
-  left: 1px;
-}
-.bann-icons .button .icon4 {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
-  box-sizing: border-box;
-  background: var(--light-color);
-  line-height: 55px;
-  text-align: center;
-  transition: 0.5s;
-  transition-property: background;
-}
-.bann-icons .button:hover .icon4 {
-  background: #52a6ff;
-}
-.bann-icons .button .icon4 a {
-  font-size: 33px;
-  line-height: 46px;
-  transition: 0.5s;
-  transition-property: color;
-}
-.bann-icons .button:hover .icon4 a i {
-  color: var(--light-color);
-  box-sizing: border-box;
-  font-size: 34px;
-}
-.bann-icons .button .icon5 {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
-  box-sizing: border-box;
-  background: var(--light-color);
-  line-height: 55px;
-  text-align: center;
-  transition: 0.5s;
-  transition-property: background;
-}
-.bann-icons .button:hover .icon5 {
-  background: #e82d3f;
-}
-.bann-icons .button .icon5 a {
-  font-size: 35px;
-  line-height: 48px;
-  transition: 0.5s;
-  transition-property: color;
-}
-.bann-icons .button:hover .icon5 a i {
-  color: var(--light-color);
-  box-sizing: border-box;
-  font-size: 35px;
+.button-icon:hover ~ span a {
+  animation: none;
 }
 .sidebar {
   background-color: var(--orange-color);
@@ -404,10 +199,9 @@ a.linkedin-in {
 }
 .sidebar .profile-img h4 {
   color: var(--light-color);
-  margin-top: 0;
-  margin-bottom: 20px;
   font-family: cursive;
   font-weight: bold;
+  font-size: 15px;
 }
 .sidebar .profile-img h4:hover {
   color: var(--main-color);
@@ -418,8 +212,9 @@ a.linkedin-in {
 }
 .sidebar a {
     color: var(--light-color);
-    display: block;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     line-height: 49px;
     text-decoration: none;
     box-sizing: border-box;
@@ -427,17 +222,16 @@ a.linkedin-in {
     background: var(--orange-color);
     transition: 0.5s;
     transition-property: background;
+    height: 40px;
 }
 .sidebar a i {
-    width: 59px;
-    padding-bottom: 25px;
-    height: 35px;
-    padding-left: 25px;
-    margin-left: 15px;
-    transition: 0.5ms ease-in-out;
-    transition-property: border;
-    border-left: 0.1875rem solid var(--main-color);
-    font-size: 24px;
+  width: 59px;
+  padding-left: 25px;
+  margin-left: 15px;
+  transition: 0.5ms ease-in-out;
+  transition-property: border;
+  border-left: 0.1875rem solid var(--main-color);
+  font-size: 15px;
 }
 .sidebar a:hover i {
   border-left: none;
@@ -458,49 +252,45 @@ a.linkedin-in {
 .sidebar i {
   padding-right: 40px;
 }
-label #sidebar-btn {
-  z-index: 1;
-  color: var(--orange-color);
-  position: fixed;
-  cursor: pointer;
-  left: 50px;
-  top: 32px;
-  font-size: 18px;
-  margin: 5px 0;
-  transition: 0.5s;
-  transition-property: color;
-  float: left;
-}
-label:hover {
-  background-color: var(--main-color);
-}
-label #sidebar-btn:hover {
-  color: black;
-}
 #check:checked ~ .sidebar {
   width: 175px;
   overflow: hidden;
   transition: 0.5s;
 }
 label {
-  border: 2px solid var(--yellow-color);
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   background-color: var(--light-color);
-  margin-left: 30px;
-  margin-top: 21px;
+  cursor: pointer;
   border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+}
+label:hover {
+  background-color: var(--main-color);
+  transition: ease-in-out 0.5s;
+}
+label #sidebar-btn {
+  color: var(--orange-color);
+  font-size: 15px;
+  transition-property: color;
+}
+label #sidebar-btn:hover {
+  color: black;
+  transition: 0.5s;
 }
 .label {
   width: 111px;
   height: 100px;
-  margin-top: -20px;
-  margin-left: -20px;
 }
 .sidebar a span {
   display: none;
+  transition-property: display;
 }
 #check:checked ~ .sidebar a span {
+  transition: ease-in-out 0.5s;
   display: inline-block;
   margin-left: -12px;
   transition: 0.5s;
@@ -515,19 +305,25 @@ label {
   display: none;
 }
 /*-------------------------------------------------------2. HOME-CONTENT-STYLE ------------------------------------------------------*/
-.content {
-  width: 100%;
-}
 .content-title {
   position: absolute;
-  top: 152px;
+  top: 150px;
   left: 50%;
   background: var(--orange-color);
   color: var(--light-color);
   border-radius: 9px;
-  width: 220px;
+  width: max-content;
   z-index: 5;
+  padding: 7px;
   box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
+}
+.content-title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.content {
+  width: 100%;
 }
 .content .banner {
   background: url(../img/banner.PNG);
@@ -657,11 +453,12 @@ label {
   left: 0px;
   width: 100%;
   height: 100%;
+  width: 100%;
 }
 .square {
   position: absolute;
   top: 330px;
-  left: 645px;
+  left: 5%;
 }
 .square span:nth-child(1) {
   position: absolute;
@@ -1474,12 +1271,6 @@ p.footer a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-.content-title h1 {
-  text-align: center;
-  margin-top: 7px;
-  text-transform: uppercase;
-  font-size: 25px;
 }
 .container {
   position: absolute;

@@ -1,55 +1,5 @@
 @media only screen and (max-width: 2560px) {
   /*-------------------------home-----------------------*/
-
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1799px;
-    min-height: 95vh;
-  }
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 798px;
-    top: 12px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1500px;
-    width: 248px;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 25px;
-    position: absolute;
-    text-shadow: 0px 25px 0px rgb(0 0 0 / 15%);
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
   .rate-icon {
     position: absolute;
     right: 517px;
@@ -57,9 +7,6 @@
   .progress-bar span {
     position: absolute;
     right: 300px;
-  }
-  .left-area:hover {
-    color: var(--light-color);
   }
   /*-------------------------about-----------------------*/
   .content .row {
@@ -191,21 +138,6 @@
   }
 }
 @media only screen and (max-width: 1880px) {
-  /*-------------------------home-----------------------*/
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1776px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -317,29 +249,6 @@
   }
 }
 @media only screen and (max-width: 1872px) {
-  /*-------------------------home-----------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1458px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1768px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -451,35 +360,7 @@
   }
 }
 @media only screen and (max-width: 1834px) {
-  /*-------------------------home-----------------------*/
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 730px;
-    top: 12px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1397px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1725px;
-    min-height: 95vh;
-  } /*-------------------------about-----------------------*/
+ /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
     position: absolute;
@@ -591,29 +472,6 @@
   }
 }
 @media only screen and (max-width: 1774px) {
-  /*-------------------------home-----------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1349px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1669px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -725,29 +583,6 @@
   }
 }
 @media only screen and (max-width: 1724px) {
-  /*-------------------------home-----------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1326px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1620px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -990,29 +825,6 @@
   }
 }
 @media only screen and (max-width: 1700px) {
-  /*-------------------------home-----------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1302px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1594px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -1124,28 +936,6 @@
   }
 }
 @media only screen and (max-width: 1678px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1289px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1574px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -1257,28 +1047,6 @@
   }
 }
 @media only screen and (max-width: 1665px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1271px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1562px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -1390,33 +1158,6 @@ input.btn.btn-primary {
   border: 2px solid var(--orange-color);
 }
 @media only screen and (max-width: 1646px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1251px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1542px;
-    min-height: 95vh;
-  }
-  .square {
-    position: absolute;
-    top: 257px;
-    left: 540px;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -1528,28 +1269,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1642px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1252px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1538px;
-    min-height: 95vh;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -1661,51 +1380,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1640px) {
-  /*-------------------------home-----------------------*/
-  .sidebar {
-    background-color: var(--orange-color);
-    margin-top: 134px;
-    padding-top: 39px;
-    position: fixed;
-    height: 100vh;
-    width: 111px;
-    transition: 0.5s;
-    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
-    z-index: 100;
-  }
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 645px;
-    top: 12px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1225px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 104px;
-    width: 1535px;
-    min-height: 95vh;
-  }
-  .square {
-    position: absolute;
-    top: 290px;
-    left: 500px;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -1891,175 +1565,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 1620px) {
   /*-------------------------home-----------------------*/
-  .left-area {
-    width: 127%;
-    position: inherit;
-    top: 12px;
-    left: 640px;
-  }
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1509px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  header .button {
-    float: right;
-    width: 45px;
-    height: 45px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    /* overflow: hidden; */
-    /* transition: 0.5s; */
-    /* transition-property: width; */
-    /* position: relative; */
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 112px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-    position: absolute;
-    top: -7px;
-    left: -6px;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: var(--main-color);
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  header .button .icon1 a {
-    font-size: 38px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 4px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 31px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1210px;
-    width: 248px;
-  }
-  header .button:hover .icon1 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 31px;
-    position: absolute;
-    left: -6px;
-    top: -1px;
-  }
-  header .button .icon1 a {
-    font-size: 38px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 7px;
-    left: 15px;
-  }
-  .button:hover .icon1 {
-    background: var(--orange-color);
-    position: absolute;
-    top: 0px;
-    left: 1px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    position: absolute;
-    top: 1px;
-    left: 0px;
-  }
-  .button .two-icon span a {
-    position: absolute;
-    font-size: 13px;
-    left: 85px;
-    top: 0px;
-    text-decoration: none;
-  }
-  .button .three-icon span a {
-    position: absolute;
-    font-size: 13px;
-    left: 85px;
-    top: 0px;
-    text-decoration: none;
-  }
-  .button .four-icon span a {
-    position: absolute;
-    font-size: 13px;
-    left: 85px;
-    top: 0px;
-    text-decoration: none;
-  }
-  .content .bann-icon1 {
-    z-index: 20;
-    position: absolute;
-    top: 848px;
-    right: 53px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 135px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100vh;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 290px;
-    left: 500px;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -2411,21 +1916,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1589px) {
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1478px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -2536,33 +2026,7 @@ input.btn.btn-primary {
     border: 2px solid var(--orange-color);
   }
 }
-@media only screen and (max-width: 1586px) {
-  /*-----------------------home--------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1184px;
-    width: 248px;
-  }
-}
 @media only screen and (max-width: 1581px) {
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1472px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -2578,30 +2042,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1565px) {
-  /*-----------------------home--------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 15px;
-    height: 155px;
-    left: 1151px;
-    width: 248px;
-  }
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1452px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -2713,80 +2153,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1560px) {
-  /*-----------------------home--------------*/
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1449px;
-    min-height: 670px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 642px;
-    top: 12px;
-    display: grid;
-    grid-template-areas: "overlap";
-    place-content: center;
-    text-transform: uppercase;
-  }
-  .left-area > div {
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: #363833;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-size: clamp(3em, 18vw, 15rem);
-    grid-area: overlap;
-    letter-spacing: 1px;
-    -webkit-text-stroke: 4px transparent;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 25px;
-    position: absolute;
-    text-shadow: 0px 17px 0px rgb(0 0 0 / 10%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 25px;
-  }
-  .left-area:hover {
-    background-color: var(--light-color);
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 1160px;
-  }
   /*-----------------------about--------------*/
   .progress-bar span {
     position: absolute;
@@ -3077,19 +2443,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1540px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 1123px;
-  }
-  .square {
-    position: absolute;
-    top: 290px;
-    left: 455px;
-  }
   .content .row {
     position: absolute;
     top: 218px;
@@ -3180,14 +2533,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 1510px) {
   /*-----------------------home--------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 1104px;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -3204,29 +2549,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 1501px) {
   /*-----------------------home--------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 1094px;
-  }
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1389px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   .content .row .experience {
     position: absolute;
     top: 356px;
@@ -3347,24 +2669,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1470px) {
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 585px;
-    top: 12px;
-    display: grid;
-    grid-template-areas: "overlap";
-    place-content: center;
-    text-transform: uppercase;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 1065px;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -3476,21 +2780,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1461px) {
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1350px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -3507,29 +2796,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 1460px) {
   /*-----------------------home--------------*/
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1349px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 1052px;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -3545,48 +2811,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1440px) {
-  /*-----------------------home--------------*/
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1329px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 1019px;
-  }
-  .sidebar a i {
-    width: 59px;
-    padding-bottom: 25px;
-    height: 35px;
-    padding-left: 25px;
-    margin-left: 15px;
-    transition: 0.5ms ease-in-out;
-    transition-property: border;
-    border-left: 0.1875rem solid var(--main-color);
-    font-size: 20px;
-  }
-  .sidebar .profile-img h4 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-family: cursive;
-    font-weight: bold;
-    font-size: 25px;
-  }
   .contact:hover {
     background-color: var(--main-color);
     box-shadow: -54px 256px 170px rgb(0 0 0 / 30%);
@@ -3712,21 +2936,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1431px) {
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1321px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -3742,21 +2951,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1419px) {
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1308px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -3772,21 +2966,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1409px) {
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1298px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -3808,29 +2987,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1400px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 276px;
-    left: 983px;
-  }
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1287px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   .content .row {
     position: absolute;
     top: 218px;
@@ -3971,29 +3127,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1391px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 276px;
-    left: 906px;
-  }
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1280px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -4105,24 +3238,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1356px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 950px;
-  }
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 485px;
-    top: 12px;
-    display: grid;
-    grid-template-areas: "overlap";
-    place-content: center;
-    text-transform: uppercase;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -4234,34 +3349,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1350px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 926px;
-  }
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1240px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 290px;
-    left: 347px;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -4466,21 +3553,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1333px) {
-  #shape {
-    position: absolute;
-    top: 65px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1222px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -4496,21 +3568,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1332px) {
-  /*-----------------------home--------------*/
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1221px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   .contact:hover {
     background-color: var(--main-color);
     box-shadow: -54px 256px 170px rgb(0 0 0 / 30%);
@@ -4533,29 +3590,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1330px) {
-  /*-----------------------home--------------*/
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1219px;
-    min-height: 100%;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 922px;
-  }
   /*-------------------------about-----------------------*/
   #cert-section {
     box-sizing: border-box;
@@ -4667,20 +3701,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1329px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1219px;
-    min-height: 100%;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   input.btn2.btn-primary {
     margin-left: 124px;
     background-color: var(--submit-color);
@@ -4704,28 +3724,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1298px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 854px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1152px;
-    min-height: 100%;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   /*-----recent-work------------*/
   .container {
     position: absolute;
@@ -4733,40 +3731,12 @@ input.btn.btn-primary {
     left: -353px;
   }
 }
-@media only screen and (max-width: 1274px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 873px;
-  }
-}
 @media only screen and (max-width: 1248px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 846px;
-  }
   /*-------------------------recent-work-----------------------*/
   .container {
     position: absolute;
     top: 63px;
     left: -383px;
-  }
-}
-@media only screen and (max-width: 1222px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 821px;
   }
 }
 @media only screen and (max-width: 1217px) {
@@ -4925,46 +3895,7 @@ input.btn.btn-primary {
     border-left: 1px solid var(--orange-color);
   }
 }
-@media only screen and (max-width: 1207px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1096px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
-}
 @media only screen and (max-width: 1200px) {
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 425px;
-    top: 12px;
-    display: grid;
-    grid-template-areas: "overlap";
-    place-content: center;
-    text-transform: uppercase;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 804px;
-  }
-  .square {
-    position: absolute;
-    top: 290px;
-    left: 260px;
-  }
   /*-----------------------services--------------*/
   .service {
     width: 320px;
@@ -5194,42 +4125,7 @@ input.btn.btn-primary {
     height: 115px;
   }
 }
-@media only screen and (max-width: 1195px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1084px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
-  .square {
-    position: absolute;
-    top: 290px;
-    left: 260px;
-  }
-}
 @media only screen and (max-width: 1189px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1078px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   #cert-section {
     box-sizing: border-box;
     position: absolute;
@@ -5327,20 +4223,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1183px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1073px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   #cert-section {
     box-sizing: border-box;
     position: absolute;
@@ -5438,28 +4320,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1180px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 782px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1069px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   #cert-section {
     box-sizing: border-box;
     position: absolute;
@@ -5575,20 +4435,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1173px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1062px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   #cert-section {
     box-sizing: border-box;
     position: absolute;
@@ -5685,45 +4531,7 @@ input.btn.btn-primary {
     z-index: 1;
   }
 }
-@media only screen and (max-width: 1169px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1058px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
-}
 @media only screen and (max-width: 1158px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 761px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1047px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   #cert-section {
     box-sizing: border-box;
     position: absolute;
@@ -5821,28 +4629,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1136px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 737px;
-  }
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1025px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
   #cert-section {
     box-sizing: border-box;
     position: absolute;
@@ -5939,35 +4725,7 @@ input.btn.btn-primary {
     z-index: 1;
   }
 }
-@media only screen and (max-width: 1125px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 10px;
-    height: 155px;
-    width: 248px;
-    left: 702px;
-  }
-}
 @media only screen and (max-width: 1115px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 1004px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
-  .square {
-    position: absolute;
-    left: 223px;
-  }
   .container {
     position: absolute;
     top: 63px;
@@ -5975,312 +4733,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1075px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 1075px;
-    height: 122px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -129px;
-    top: 35px;
-  }
-  .left-area span {
-    color: var(--main-color);
-    padding-left: 8px;
-  }
-  .left-area h3 {
-    color: var(--yellow-color);
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: 900;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
-  }
-  .left-area h3:hover {
-    color: var(--light-color);
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 2px;
-    height: 155px;
-    width: 248px;
-    left: 161px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 34px;
-    height: 33px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -271px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -20px;
-    margin-left: -193px;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 963px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 150px;
-    left: 223px;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -6387,19 +4839,7 @@ input.btn.btn-primary {
     border-radius: 100px;
     margin-bottom: 10px;
   }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
   /*-------------------------about-----------------------*/
-  #check:checked ~ .content .row {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
-  #check:checked ~ .content .download-cv {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
   .content .row {
     position: absolute;
     top: 200px;
@@ -6706,21 +5146,6 @@ input.btn.btn-primary {
 }
 }
 @media only screen and (max-width: 1025px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 914px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
 .graph1 {
     position: absolute;
     left: 152px;
@@ -6743,340 +5168,6 @@ input.btn.btn-primary {
 }
 }
 @media only screen and (max-width: 1024px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 1024px;
-    height: 144px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -129px;
-    top: 35px;
-  }
-  .left-area span {
-    color: var(--main-color);
-    padding-left: 8px;
-  }
-  .left-area h3 {
-    color: var(--light-color);
-    text-transform: uppercase;
-    font-size: 29px;
-    font-weight: 900;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
-  }
-  header .button {
-    float: right;
-    width: 50px;
-    height: 50px;
-    margin-top: -10px;
-    color: var(--orange-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    color: var(--orange-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 8px;
-    height: 155px;
-    width: 248px;
-    left: 181px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  .button:hover .icon1 {
-    color: var(--orange);
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 50px;
-    height: 50px;
-    margin-top: 0px;
-  }
-  .icon1 a i {
-    font-size: 45px;
-  }
-  .bann-icons .button:hover {
-    width: 198px;
-    height: 50px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: 5px;
-    left: 54px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: #212529;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-    font-size: 45px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 22px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 34px;
-    height: 33px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 35px;
-    border-radius: 104px;
-    position: absolute;
-    left: 4px;
-    top: 14px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 41px;
-    position: absolute;
-    top: 12px;
-    left: -1px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 50px;
-    height: 50px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 35px;
-    position: absolute;
-    top: 16px;
-    left: 1px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  i.fab.fa-github {
-    color: var(--orange-color);
-    font-size: 37px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 50px;
-    height: 50px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 35px;
-    position: absolute;
-    left: 4px;
-    top: 12px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  i.fab.fa-linkedin-in {
-    color: var(--orange-color);
-    position: absolute;
-    left: 0px;
-    top: 9px;
-    font-size: 40px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 143px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  .sidebar a i {
-    width: 59px;
-    padding-bottom: 25px;
-    height: 35px;
-    padding-left: 25px;
-    margin-left: 15px;
-    transition: 0.5ms ease-in-out;
-    transition-property: border;
-    border-left: 0.1875rem solid var(--main-color);
-    font-size: 23px;
-  }
-  label {
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -93px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -20px;
-    margin-left: -348px;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 913px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 35px;
-  }
   .tooltip-inner {
     max-width: 200px;
     padding: 0.25rem 0.5rem;
@@ -7085,18 +5176,6 @@ input.btn.btn-primary {
     background-color: #000;
     border-radius: 0.25rem;
     margin-left: 25px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 257px;
-    left: 190px;
   }
   .square span:nth-child(1) {
     position: absolute;
@@ -7204,19 +5283,7 @@ input.btn.btn-primary {
     border-radius: 100px;
     margin-bottom: 10px;
   }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
   /*-------------------------about-----------------------*/
-  #check:checked ~ .content .row {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
-  #check:checked ~ .content .download-cv {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
   .content .row {
     position: absolute;
     top: 320px;
@@ -7567,21 +5634,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1007px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 896px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -7599,21 +5651,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 1003px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 892px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -7630,376 +5667,7 @@ input.btn.btn-primary {
     width: 79px;
   }
 }
-@media only screen and (max-width: 995px) {
-  #shape {
-    position: absolute;
-    top: 92px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 884px;
-    min-height: 385px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -74px;
-    height: 155px;
-    width: 248px;
-    left: 268px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -20px;
-    top: -72px;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 881px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
 @media only screen and (max-width: 990px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 1024px;
-    height: 130px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -109px;
-    top: -83px;
-  }
-  header .button {
-    float: right;
-    width: 50px;
-    height: 50px;
-    margin-top: -10px;
-    color: var(--orange-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    color: var(--orange-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -79px;
-    height: 155px;
-    width: 253px;
-    left: 248px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  .button:hover .icon1 {
-    color: var(--orange);
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 50px;
-    height: 50px;
-    margin-top: 0px;
-  }
-  .icon1 a i {
-    font-size: 45px;
-  }
-  .bann-icons .button:hover {
-    width: 198px;
-    height: 50px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: 5px;
-    left: 54px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: #212529;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-    font-size: 45px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 22px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 35px;
-    border-radius: 104px;
-    position: absolute;
-    left: 4px;
-    top: 14px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 41px;
-    position: absolute;
-    top: 12px;
-    left: -1px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 50px;
-    height: 50px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 35px;
-    position: absolute;
-    top: 16px;
-    left: 1px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  i.fab.fa-twitter {
-    color: var(--orange-color);
-    position: absolute;
-    top: 10px;
-    left: -3px;
-    font-size: 45px;
-  }
-
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 50px;
-    height: 50px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 35px;
-    position: absolute;
-    left: 4px;
-    top: 12px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  i.fab.fa-linkedin-in {
-    color: var(--orange-color);
-    position: absolute;
-    left: 0px;
-    top: 9px;
-    font-size: 40px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 130px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  .sidebar a i {
-    width: 59px;
-    padding-bottom: 25px;
-    height: 35px;
-    padding-left: 25px;
-    margin-left: 15px;
-    transition: 0.5ms ease-in-out;
-    transition-property: border;
-    border-left: 0.1875rem solid var(--main-color);
-    font-size: 20px;
-  }
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -246px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -20px;
-    margin-left: -193px;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 879px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .content .banner {
-    background: url(../img/banner.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
   .p-explain::before {
     content: "";
     width: 1%;
@@ -8019,18 +5687,6 @@ input.btn.btn-primary {
     left: 274px;
     /* border-style: inset; */
     font-size: 1px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 161px;
-    left: 140px;
   }
   .square span:nth-child(1) {
     position: absolute;
@@ -8138,19 +5794,7 @@ input.btn.btn-primary {
     border-radius: 100px;
     margin-bottom: 10px;
   }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
   /*-------------------------about-----------------------*/
-  #check:checked ~ .content .row {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
-  #check:checked ~ .content .download-cv {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
   .content .row {
     position: absolute;
     top: 214px;
@@ -8346,21 +5990,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 967px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 854px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8397,17 +6026,6 @@ input.btn.btn-primary {
     font-weight: bold;
     transition: 0.3s;
     z-index: 1;
-  }
-  .content-title {
-    position: absolute;
-    top: 154px;
-    left: 466px;
-    background: var(--orange-color);
-    color: var(--light-color);
-    border-radius: 9px;
-    width: 155px;
-    z-index: 5;
-    box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
   }
   .container {
     position: absolute;
@@ -8427,21 +6045,6 @@ input.btn.btn-primary {
 }
 
 @media only screen and (max-width: 965px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 854px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .special-menu {
     width: 567px;
     position: absolute;
@@ -8453,40 +6056,7 @@ input.btn.btn-primary {
     left: 120px;
   }
 }
-
-@media only screen and (max-width: 961px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 850px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
 @media only screen and (max-width: 957px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 846px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8523,41 +6093,9 @@ input.btn.btn-primary {
     font-weight: bold;
     transition: 0.3s;
     z-index: 1;
-  }
-}
-@media only screen and (max-width: 951px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 840px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
   }
 }
 @media only screen and (max-width: 943px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 832px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8594,41 +6132,9 @@ input.btn.btn-primary {
     font-weight: bold;
     transition: 0.3s;
     z-index: 1;
-  }
-}
-@media only screen and (max-width: 941px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 831px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
   }
 }
 @media only screen and (max-width: 933px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 822px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8667,39 +6173,7 @@ input.btn.btn-primary {
     z-index: 1;
   }
 }
-@media only screen and (max-width: 931px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 820px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
 @media only screen and (max-width: 929px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 818px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8739,21 +6213,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 927px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 816px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8790,58 +6249,9 @@ input.btn.btn-primary {
     font-weight: bold;
     transition: 0.3s;
     z-index: 1;
-  }
-}
-@media only screen and (max-width: 925px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 814px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
-@media only screen and (max-width: 923px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 813px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
   }
 }
 @media only screen and (max-width: 921px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 811px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8878,41 +6288,9 @@ input.btn.btn-primary {
     font-weight: bold;
     transition: 0.3s;
     z-index: 1;
-  }
-}
-@media only screen and (max-width: 919px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 808px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
   }
 }
 @media only screen and (max-width: 917px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 806px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -8951,73 +6329,7 @@ input.btn.btn-primary {
     z-index: 1;
   }
 }
-@media only screen and (max-width: 915px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 804px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
-@media only screen and (max-width: 989px) and (max-width: 913px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 879p;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
-@media only screen and (max-width: 911px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 800px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
 @media only screen and (max-width: 909px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 798px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9057,21 +6369,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 907px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 796px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9110,32 +6407,7 @@ input.btn.btn-primary {
     z-index: 1;
   }
 }
-@media only screen and (max-width: 903px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 792px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
 @media only screen and (max-width: 970px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -79px;
-    height: 155px;
-    width: 253px;
-    left: 208px;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9175,14 +6447,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 930px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -79px;
-    height: 155px;
-    width: 253px;
-    left: 174px;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9222,21 +6486,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 901px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 790px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9275,54 +6524,7 @@ input.btn.btn-primary {
     z-index: 1;
   }
 }
-@media only screen and (max-width: 897px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 786px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-}
 @media only screen and (max-width: 895px) {
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -181px;
-    top: -83px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -79px;
-    height: 155px;
-    width: 253px;
-    left: 153px;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 784px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9362,21 +6564,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 891px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 780px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9416,21 +6603,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 887px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 879px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 8px;
-    height: 101vh;
-  }
   .container {
     position: absolute;
     top: 99px;
@@ -9438,21 +6610,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 885px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 774px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9492,21 +6649,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 883px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 772px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9547,21 +6689,6 @@ input.btn.btn-primary {
 }
 
 @media only screen and (max-width: 881px) {
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 771px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -9601,306 +6728,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 880px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 132vh;
-    height: 122px;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -20px;
-    margin-left: -314px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -180px;
-    top: -50px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 102px;
-  }
-
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    font-size: 12px;
-    left: 41px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-    font-size: 27px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 55px;
-    top: -5px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 27px;
-    border-radius: 104px;
-    position: absolute;
-    left: -1px;
-    top: 12px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  i.fab.fa-github {
-    color: var(--orange-color);
-    font-size: 25px;
-    position: absolute;
-    top: 12px;
-    left: -2px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    left: -1px;
-  }
-  i.fab.fa-linkedin-in {
-    color: var(--orange-color);
-    position: absolute;
-    left: 0px;
-    top: 9px;
-    font-size: 27px;
-  }
-  .bann-icons .button:hover a.linkedin-in {
-    position: absolute;
-    left: 55px;
-    top: 7px;
-    font-size: 16px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -174px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 771px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 110px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 115vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 154px;
-    left: 130px;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -10007,11 +6834,6 @@ input.btn.btn-primary {
     border-radius: 100px;
     margin-bottom: 10px;
   }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-
   /*-------------------------about-----------------------*/
   #check:checked ~ .content .row {
     margin-left: 55px;
@@ -10237,27 +7059,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 879px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 102px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -162px;
-    top: -50px;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -20px;
-    margin-left: -315px;
-  }
   .container {
     position: absolute;
     top: 99px;
@@ -10265,14 +7066,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 857px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 79px;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -10322,21 +7115,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 825px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 49px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -215px;
-    top: -50px;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -10385,14 +7163,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 797px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 23px;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -10447,30 +7217,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 771px) {
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -173px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -248px;
-    top: -50px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 0px;
-  }
   .cv {
     width: 265px;
     height: 352px;
@@ -10525,314 +7271,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 768px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 768px;
-    height: 122px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -56px;
-    top: -50px;
-  }
-  .left-area span {
-    color: var(--main-color);
-    padding-left: 8px;
-  }
-  .left-area:hover {
-    color: var(--light-color);
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -87px;
-    height: 155px;
-    width: 248px;
-    left: 159px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .one-icon:hover span a {
-    position: absolute;
-    top: -4px;
-    left: 68px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  i.fab.fa-twitter {
-    color: var(--orange-color);
-    position: absolute;
-    top: 11px;
-    left: -2px;
-    font-size: 28px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  i.fab.fa-linkedin-in {
-    color: var(--orange-color);
-    position: absolute;
-    left: 0px;
-    top: 9px;
-    font-size: 27px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -19px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -20px;
-    margin-left: -292px;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 64vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 98vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 30px;
-  }
   .tooltip-inner {
     max-width: 200px;
     padding: 0.25rem 0.5rem;
@@ -10841,18 +7279,6 @@ input.btn.btn-primary {
     background-color: #000;
     border-radius: 0.25rem;
     margin-left: 25px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 180px;
-    left: 70px;
   }
   .square span:nth-child(1) {
     position: absolute;
@@ -10960,11 +7386,6 @@ input.btn.btn-primary {
     border-radius: 100px;
     margin-bottom: 10px;
   }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-
   /*-------------------------about-----------------------*/
   #check:checked ~ .content .row {
     margin-left: 55px;
@@ -11302,316 +7723,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 767px) {
   /*-------------------------home-----------------------*/
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 768px;
-    height: 122px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -84px;
-    top: -50px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 173px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 77px;
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  .bann-icons .one-icon:hover span a {
-    position: absolute;
-    top: -4px;
-    left: 68px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  i.fab.fa-twitter {
-    color: var(--orange-color);
-    position: absolute;
-    top: 11px;
-    left: -2px;
-    font-size: 28px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  i.fab.fa-linkedin-in {
-    color: var(--orange-color);
-    position: absolute;
-    left: 0px;
-    top: 9px;
-    font-size: 27px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -17px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 657px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100vh;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 96vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: absolute;
-    top: 180px;
-    left: 70px;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -11718,11 +7829,6 @@ input.btn.btn-primary {
     border-radius: 100px;
     margin-bottom: 10px;
   }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-
   /*-------------------------about-----------------------*/
   #check:checked ~ .content .row {
     margin-left: 55px;
@@ -12048,15 +8154,6 @@ input.btn.btn-primary {
 }
 }
 @media only screen and (max-width: 761px) {
-  /*--------------home-----------------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 148px;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -12075,21 +8172,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 735px) {
   /*--------------home-----------------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 77px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -130px;
-    top: -50px;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -12119,51 +8201,8 @@ input.btn.btn-primary {
     width: 328px;
   }
 }
-@media only screen and (max-width: 707px) {
-  /*--------------home-----------------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 99px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -130px;
-    top: -50px;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 35px;
-  }
-}
 @media only screen and (max-width: 687px) {
   /*--------------home-----------------------------*/
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -156px;
-    top: -50px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 75px;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 25px;
-  }
   .special-menu {
     width: 567px;
     position: absolute;
@@ -12177,14 +8216,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 679px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -65px;
-    height: 155px;
-    width: 248px;
-    left: 69px;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -12202,19 +8233,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 663px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 60px;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 15px;
-  }
   .products-box {
     padding: 232px;
     margin-left: -212px;
@@ -12284,69 +8302,7 @@ input.btn.btn-primary {
     width: 370px;
   }
 }
-@media only screen and (max-width: 649px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 38px;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 15px;
-  }
-}
 @media only screen and (max-width: 627px) {
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -181px;
-    top: -50px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 23px;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 77vh;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 61vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100vh;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 55px;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -12441,19 +8397,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 613px) {
   /*--------------home-------------------------------------*/
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 9px;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 55px;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -12563,304 +8506,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 600px) {
   /*--------------home-----------------------------*/
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 600px;
-    height: 122px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -30px;
-    top: -40px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -84px;
-    height: 155px;
-    width: 248px;
-    left: 103px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 34px;
-    height: 33px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .one-icon:hover span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: -5px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  label {
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -130px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -20px;
-    margin-left: -83px;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 493px;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 73vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 55px;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -13080,15 +8725,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 599px) {
-  label {
-    border: 2px solid var(--main-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -130px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
   .row.special-list {
     top: 312px;
     left: 200px;
@@ -13101,21 +8737,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 597px) {
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -83px;
-    top: -40px;
-  }
-  label {
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -131px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
   .container {
     position: absolute;
     top: 113px;
@@ -13132,105 +8753,7 @@ input.btn.btn-primary {
     left: 171px;
   }
 }
-@media only screen and (max-width: 593px) {
-  label {
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -129px;
-    margin-top: 21px;
-    border-radius: 40px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -84px;
-    height: 155px;
-    width: 248px;
-    left: 88px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -88px;
-    top: -40px;
-  }
-  .content-title {
-    position: absolute;
-    top: 154px;
-    left: 265px;
-    background: var(--orange-color);
-    color: var(--light-color);
-    border-radius: 9px;
-    width: 155px;
-    z-index: 5;
-    box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
-  }
-}
-@media only screen and (max-width: 579px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -84px;
-    height: 155px;
-    width: 248px;
-    left: 80px;
-  }
-}
-@media only screen and (max-width: 569px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -84px;
-    height: 155px;
-    width: 248px;
-    left: 66px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -106px;
-    top: -40px;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 30px;
-  }
-}
-@media only screen and (max-width: 557px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -84px;
-    height: 155px;
-    width: 248px;
-    left: 56px;
-  }
-}
 @media only screen and (max-width: 547px) {
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -119px;
-    top: -40px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -84px;
-    height: 155px;
-    width: 248px;
-    left: 44px;
-  }
-  .square {
-    position: absolute;
-    top: 130px;
-    left: 15px;
-  }
   .content .row {
     position: absolute;
     top: 214px;
@@ -13338,315 +8861,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 540px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 100;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 100%;
-    height: 191px;
-    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
-  }
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 79px;
-    top: -95px;
-  }
-  .left-area span {
-    color: var(--main-color);
-    position: absolute;
-    left: 75px;
-  }
-  .left-area h3 {
-    color: var(--light-color);
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: 900;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -32px;
-    height: 155px;
-    width: 248px;
-    left: 139px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 34px;
-    height: 33px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  i.fab.fa-twitter {
-    color: var(--orange-color);
-    position: absolute;
-    top: 10px;
-    left: -3px;
-    font-size: 30px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    left: 0px;
-    top: 9px;
-  }
-  i.fab.fa-linkedin-in {
-    color: var(--orange-color);
-    position: absolute;
-    left: -1px;
-    top: 8px;
-    font-size: 28px;
-  }
-  .sidebar a i {
-    width: 59px;
-    padding-bottom: 25px;
-    height: 35px;
-    padding-left: 25px;
-    margin-left: 15px;
-    transition: 0.5ms ease-in-out;
-    transition-property: border;
-    border-left: 0.1875rem solid var(--main-color);
-    font-size: 20px;
-  }
-  .sidebar .profile-img h4 {
-    color: var(--light-color);
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-family: cursive;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .sidebar {
-    background-color: var(--orange-color);
-    margin-top: 189px;
-    padding-top: 39px;
-    position: fixed;
-    height: 100%;
-    width: 111px;
-    transition: 0.5s;
-    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
-    z-index: 100;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -56px;
-    margin-left: -5px;
-  }
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: 30px;
-    margin-top: 76px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 65px;
-    top: 104px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 63.5vh;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 59.5vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
   .tooltip-inner {
     max-width: 200px;
     padding: 0.25rem 0.5rem;
@@ -13655,24 +8869,6 @@ input.btn.btn-primary {
     background-color: #000;
     border-radius: 0.25rem;
     margin-left: 25px;
-  }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 100px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
   }
   .square span:nth-child(1) {
     position: absolute;
@@ -14103,13 +9299,6 @@ input.btn.btn-primary {
 }
 }
 @media only screen and (max-width: 539px) {
-  .square {
-    left: 100px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   .special-menu {
     width: 211px;
     position: absolute;
@@ -14123,51 +9312,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 525px) {
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 61.5vh;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 49vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 100px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -14309,47 +9453,6 @@ input.btn.btn-primary {
 }
 }
 @media only screen and (max-width: 500px) {
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 62vh;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 46vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 100px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -14477,46 +9580,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 477px) {
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: 21px;
-    top: -95px;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 55vh;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 43vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 101vh;
-  }
-  .square {
-    left: 70px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   .special-menu {
     width: 211px;
     position: absolute;
@@ -14530,292 +9593,6 @@ input.btn.btn-primary {
   }
 }
 @media (max-width: 450px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 100;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 100%;
-    height: 191px;
-    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
-  }
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: -18px;
-    top: -95px;
-  }
-  .left-area span {
-    color: var(--main-color);
-    position: absolute;
-    top: 1px;
-    left: 77px;
-  }
-  .left-area h3 {
-    color: var(--light-color);
-    text-transform: uppercase;
-    font-size: 17px;
-    font-weight: 900;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -36px;
-    height: 155px;
-    width: 248px;
-    left: 123px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 34px;
-    height: 33px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  .sidebar {
-    background-color: var(--orange-color);
-    margin-top: 189px;
-    padding-top: 39px;
-    position: fixed;
-    height: 100%;
-    width: 111px;
-    transition: 0.5s;
-    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
-    z-index: 100;
-  }
-  .label {
-    width: 111px;
-    height: 100px;
-    margin-top: -28px;
-    margin-left: -5px;
-  }
-  label {
-    width: 45%;
-    height: 45%;
-    background-color: var(--light-color);
-    margin-left: 34px;
-    margin-top: 64px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 65px;
-    top: 104px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 60px;
-    position: absolute;
-    top: 200px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -15274,332 +10051,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 414px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 414px;
-    height: 122px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: 10px;
-    top: -13px;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 18px;
-    position: absolute;
-    text-shadow: 0px 17px 0px rgb(0 0 0 / 10%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 18px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -77px;
-    height: 155px;
-    width: 248px;
-    left: 19px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 34px;
-    height: 33px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  label {
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -77px;
-    margin-top: 29px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 62px;
-    top: 33px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 41.5vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 41.5vh;
-  }
-  .content-title {
-    position: absolute;
-    top: 154px;
-    left: 193px;
-    background: var(--orange-color);
-    color: var(--light-color);
-    border-radius: 9px;
-    width: 155px;
-    z-index: 5;
-    box-shadow: 0px 10px 41px rgb(0 0 0 / 10%);
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 41px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -16055,337 +10506,6 @@ input.btn.btn-primary {
 }
 
 @media only screen and (max-width: 411px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 411px;
-    height: 143px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: 2px;
-    top: -2px;
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 20px;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 20px;
-    position: absolute;
-    text-shadow: 0px 17px 0px rgb(0 0 0 / 10%);
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: -10px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  header .button:hover {
-    width: 192px;
-    margin-left: 101px;
-    height: 47px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 38px;
-  }
-  header .button:hover header button span a {
-    position: absolute;
-    top: 8px;
-    left: 45px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 35px;
-    height: 35px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 23px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 6px;
-    left: 13px;
-  }
-  .icon1 a i {
-    font-size: 27px;
-  }
-  .bann-icons .button:hover {
-    width: 170px;
-    height: 35px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -5px;
-    left: -8px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 13px;
-    left: 69px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .bann-icons .button .icon2 a {
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -8px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    width: 34px;
-    height: 33px;
-    position: absolute;
-    left: 0px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-  }
-  i.fab.fa-facebook {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 13px;
-    left: 0px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 7px;
-    top: -6px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  i.fab.fa-instagram {
-    color: var(--orange-color);
-    font-size: 25px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 35px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-  }
-  .bann-icons .button .icon5 a {
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -9px;
-    left: 7px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  .sidebar .profile-img h4 {
-    color: var(--light-color);
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-family: cursive;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  label {
-    width: 40%;
-    height: 40%;
-    background-color: var(--light-color);
-    margin-left: -88px;
-    margin-top: 43px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 45px;
-    top: 43px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 41.5vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 44.5vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-
-  #check:checked ~ .content .banner {
-    margin-left: 175px;
-    transition: 0.5s;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 41px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -16830,21 +10950,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 395px) {
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 21px;
-  }
-  .square {
-    left: 41px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -16870,105 +10975,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 375px) {
   /*-------------------------home-----------------------*/
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: -10px;
-    top: 2px;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 18px;
-    position: absolute;
-    text-shadow: 0px 17px 0px rgb(0 0 0 / 10%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 18px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -76px;
-    height: 155px;
-    width: 248px;
-    left: 7px;
-  }
-
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 40%;
-    height: 40%;
-    background-color: var(--light-color);
-    margin-left: -87px;
-    margin-top: 44px;
-    border-radius: 40px;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 40vh;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 40vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 22px;
-    position: absolute;
-    top: 166px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -17340,371 +11346,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 360px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    padding: 20px;
-    width: 360px;
-    height: 140px;
-  }
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: -83px;
-    top: -6px;
-    display: grid;
-    grid-template-areas: "overlap";
-    place-content: center;
-    text-transform: uppercase;
-  }
-  .left-area > div {
-    background-clip: text;
-    -webkit-background-clip: text;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-size: clamp(3em, 18vw, 15rem);
-    grid-area: overlap;
-    letter-spacing: 1px;
-    -webkit-text-stroke: 4px transparent;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 18px;
-    position: absolute;
-    text-shadow: 0px 25px 0px rgb(0 0 0 / 15%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 18px;
-  }
-  .left-area:hover {
-    background-color: var(--light-color);
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: 4px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -95px;
-    height: 155px;
-    width: 248px;
-    left: -6px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button:hover {
-    width: 155px;
-    height: 31px;
-  }
-  .whatsapp {
-    font-size: 13px;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  header .button:hover .icon1 {
-    width: 34px;
-    height: 32px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 36px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 2px;
-    left: 10px;
-  }
-  .icon1 a i {
-    font-size: 31px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -3px;
-    left: -6px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 11px;
-    left: 66px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -7px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-    font-size: 11px;
-  }
-  .bann-icons .button .icon2 {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button .icon2 a {
-    font-size: 25px;
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -5px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-    position: absolute;
-    left: -1px;
-    top: 8px;
-  }
-  a.facebook {
-    margin-top: -13px;
-  }
-  .bann-icons .button .icon3 {
-    display: inline-block;
-    width: 46px;
-    height: 37px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 6px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 11px;
-    left: -1px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -5px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 7px;
-  }
-  .bann-icons .button .icon5 {
-    display: inline-block;
-    width: 44px;
-    height: 39px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button .icon5 a {
-    font-size: 25px;
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -6px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    left: -1px;
-    top: 9px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 136px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  .sidebar .profile-img h4 {
-    color: var(--light-color);
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-family: cursive;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  label {
-    width: 45%;
-    height: 45%;
-    background-color: var(--light-color);
-    margin-left: -59px;
-    margin-top: 49px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 50px;
-    top: 48px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 39vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 39vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 15px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -18132,13 +11773,6 @@ input.btn.btn-primary {
 }
 }
 @media only screen and (max-width: 359px) {
-  .square {
-    left: 15px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
-  }
   .special-menu {
     width: 201px;
     position: absolute;
@@ -18165,56 +11799,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 345px) {
-  .left-area {
-    width: 127%;
-    position: inherit;
-    left: -82px;
-    top: -6px;
-    display: grid;
-    grid-template-areas: "overlap";
-    place-content: center;
-    text-transform: uppercase;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 15px;
-    position: absolute;
-    text-shadow: 0px 25px 0px rgb(0 0 0 / 15%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 15px;
-  }
-
-  .content .banner {
-    background: url(../img/banner.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 34.5vh;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -18230,27 +11814,6 @@ input.btn.btn-primary {
     border-radius: 5px;
     width: 75px;
     margin-top: -3px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 7px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
   }
   .square span:nth-child(1) {
     position: absolute;
@@ -18365,20 +11928,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 335px) {
   /*-------------------------home-----------------------*/
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 10px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -18546,20 +12095,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 325px) {
   /*-------------------------home-----------------------*/
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 7px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -18738,351 +12273,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 320px) {
   /*-------------------------home-----------------------*/
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 360px;
-    height: 122px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: 0px;
-    top: -18px;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 15px;
-    position: absolute;
-    text-shadow: 0px 25px 0px rgb(0 0 0 / 15%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 15px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: 4px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -90px;
-    height: 155px;
-    width: 248px;
-    left: -20px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button:hover {
-    width: 155px;
-    height: 31px;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 34px;
-    height: 32px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 36px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 2px;
-    left: 10px;
-  }
-  .icon1 a i {
-    font-size: 31px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -3px;
-    left: -6px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 11px;
-    left: 66px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -7px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-    font-size: 11px;
-  }
-  .bann-icons .button .icon2 {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button .icon2 a {
-    font-size: 25px;
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -5px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-    position: absolute;
-    left: -1px;
-    top: 8px;
-  }
-  a.facebook {
-    margin-top: -13px;
-  }
-  .bann-icons .button .icon3 {
-    display: inline-block;
-    width: 46px;
-    height: 37px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 6px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 11px;
-    left: -1px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -5px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 7px;
-  }
-  .bann-icons .button .icon5 {
-    display: inline-block;
-    width: 44px;
-    height: 39px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button .icon5 a {
-    font-size: 25px;
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -6px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    left: -1px;
-    top: 9px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  label {
-    border: 2px solid var(--yellow-color);
-    width: 50%;
-    height: 50%;
-    background-color: var(--light-color);
-    margin-left: -61px;
-    margin-top: 45px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 50px;
-    top: 48px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 37vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .content .banner {
-    background: url(../img/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 37vh;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 4px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -19194,14 +12384,6 @@ input.btn.btn-primary {
     margin-bottom: 10px;
   }
   /*-------------------------about-----------------------*/
-  #check:checked ~ .content .row {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
-  #check:checked ~ .content .download-cv {
-    margin-left: 55px;
-    transition: 0.5s;
-  }
   .content .row {
     position: absolute;
     top: 197px;
@@ -19534,55 +12716,6 @@ input.btn.btn-primary {
 }
 @media only screen and (max-width: 317px) {
   /*-------------------------home-----------------------*/
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 12px;
-    position: absolute;
-    text-shadow: 0px 25px 0px rgb(0 0 0 / 15%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 12px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -90px;
-    height: 155px;
-    width: 248px;
-    left: -45px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: 2px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -19693,39 +12826,6 @@ input.btn.btn-primary {
     border-radius: 100px;
     margin-bottom: 10px;
   }
-  .content .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 532px;
-    right: 145px;
-    display: flex;
-    flex-direction: column;
-  }
-  .content .bann-icons .button {
-    float: right;
-    width: 45px;
-    height: 45px;
-    margin-top: 3px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  .content .bann-icons .one-icon:hover {
-    width: 144px;
-  }
-  .content .bann-icons .two-icon:hover {
-    width: 144px;
-  }
-  .content .bann-icons .three-icon-icon:hover {
-    width: 144px;
-  }
-  .content .bann-icons .four-icon:hover {
-    width: 144px;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -19755,48 +12855,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 301px) {
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: 2px;
-    top: -15px;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient(
-      105deg,
-      var(--light-color) 0%,
-      var(--main-color) 5%,
-      var(--light-color) 12%
-    );
-    color: transparent;
-    filter: drop-shadow(5px 15px 15px black);
-    transform: scaleY(1.05);
-    transform-origin: top;
-    font-size: 10px;
-    position: absolute;
-    text-shadow: 0px 25px 0px rgb(0 0 0 / 15%);
-  }
-  div.fg {
-    background-image: repeating-linear-gradient(
-      5deg,
-      var(--light-color) 0%,
-      var(--main-color) 23%,
-      var(--light-color) 31%
-    );
-    color: var(--orange-color);
-    transform: scale(1);
-    position: absolute;
-    font-size: 10px;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -90px;
-    height: 155px;
-    width: 248px;
-    left: -57px;
-  }
   input.btn.btn-primary {
     background-color: var(--submit-color);
     position: absolute;
@@ -19816,23 +12874,6 @@ input.btn.btn-primary {
 }
 
 @media only screen and (max-width: 293px) {
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    position: relative;
-    width: 400px;
-    top: 262px;
-    margin-left: 220px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -19961,331 +13002,6 @@ input.btn.btn-primary {
   }
 }
 @media only screen and (max-width: 280px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    background: var(--orange-color);
-    padding: 20px;
-    width: 280px;
-    height: 122px;
-  }
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: 40px;
-  }
-  .left-area span {
-    color: var(--main-color);
-    padding-left: 8px;
-  }
-  header .button {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin-top: 4px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: -91px;
-    height: 155px;
-    width: 248px;
-    left: -25px;
-  }
-  header .button .icon1 {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button:hover {
-    width: 155px;
-    height: 31px;
-  }
-  .whatsapp {
-    font-size: 13px;
-    color: #00ff0a;
-    position: absolute;
-    top: 9px;
-    left: 56px;
-  }
-  header .button:hover .icon1 {
-    background: #00ff0a;
-    width: 34px;
-    height: 32px;
-    margin-top: 0px;
-  }
-  header .button .icon1 a {
-    font-size: 36px;
-    line-height: 43px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: 2px;
-    left: 10px;
-  }
-  .icon1 a i {
-    font-size: 31px;
-  }
-  span a .whatsapp {
-    text-decoration: none;
-  }
-  span a .whatsapp:hover {
-    text-decoration: none;
-  }
-  .bann-icons .button:hover .icon1 a i {
-    color: #ffffff;
-    position: absolute;
-    top: -3px;
-    left: -6px;
-  }
-  .button span a {
-    position: absolute;
-    font-size: 11px;
-    left: 66px;
-    top: 9px;
-    text-decoration: none;
-  }
-  .whatsapp-icon:hover span a {
-    display: block;
-    position: absolute;
-    top: -7px;
-    left: 40px;
-    text-align: center;
-    text-decoration: none;
-    animation: none;
-    color: var(--main-color);
-    font-size: 11px;
-  }
-  .bann-icons .button .icon2 {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button:hover .icon2 {
-    background: #007bff;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button .icon2 a {
-    font-size: 25px;
-    line-height: 47px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -5px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon2 a i {
-    color: #ffffff;
-    box-sizing: border-box;
-    font-size: 25px;
-    border-radius: 104px;
-    position: absolute;
-    left: -1px;
-    top: 8px;
-  }
-  a.facebook {
-    margin-top: -13px;
-  }
-  .bann-icons .button .icon3 {
-    display: inline-block;
-    width: 46px;
-    height: 37px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button .icon3 a {
-    font-size: 25px;
-    line-height: 52px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    left: 6px;
-    top: -7px;
-  }
-  .bann-icons .button:hover .icon3 {
-    background: #01c5ffdb;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon3 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 11px;
-    left: -1px;
-  }
-  .bann-icons .button .icon4 a {
-    font-size: 25px;
-    line-height: 46px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -5px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon4 {
-    background: #52a6ff;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon4 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    top: 7px;
-  }
-  .bann-icons .button .icon5 {
-    display: inline-block;
-    width: 44px;
-    height: 39px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    background: var(--light-color);
-    line-height: 55px;
-    text-align: center;
-    transition: 0.5s;
-    transition-property: background;
-  }
-  .bann-icons .button .icon5 a {
-    font-size: 25px;
-    line-height: 48px;
-    transition: 0.5s;
-    transition-property: color;
-    position: absolute;
-    top: -6px;
-    left: 7px;
-  }
-  .bann-icons .button:hover .icon5 {
-    background: #e82d3f;
-    width: 34px;
-    height: 32px;
-  }
-  .bann-icons .button:hover .icon5 a i {
-    color: var(--light-color);
-    box-sizing: border-box;
-    font-size: 25px;
-    position: absolute;
-    left: -1px;
-    top: 9px;
-  }
-  .sidebar {
-    background: var(--orange-color);
-    margin-top: 121px;
-    padding-top: 30px;
-    position: fixed;
-    height: 100%;
-    transition: 0.5ms;
-    transition-property: width;
-    width: 111px;
-  }
-  .sidebar .profile-img h4 {
-    color: var(--light-color);
-    font-size: 20px;
-  }
-  label {
-    border: 2px solid var(--light-color);
-    width: 40%;
-    height: 40%;
-    background-color: var(--light-color);
-    margin-left: -41px;
-    margin-top: 13px;
-    border-radius: 40px;
-  }
-  label #sidebar-btn {
-    z-index: 1;
-    color: var(--orange-color);
-    position: fixed;
-    cursor: pointer;
-    left: 24px;
-    top: 11px;
-    font-size: 18px;
-    margin: 5px 0;
-    transition: 0.5s;
-    transition-property: color;
-    float: left;
-  }
-  .content .banner {
-    background: url(../img/banner.PNG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    margin-left: 111px;
-    transition: 0.5s;
-    position: relative;
-    top: 122px;
-    width: 26vh;
-  }
-  #shape {
-    position: absolute;
-    top: 122px;
-    color: rgba(255, 255, 255, 0.5);
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-top: 0;
-    width: 26vh;
-    min-height: 622px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 111px;
-    height: 100%;
-  }
-  .content-title h1 {
-    text-align: center;
-    margin-top: 7px;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  .square-container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-  }
-  .square {
-    left: -216px;
-    position: absolute;
-    top: 137px;
-    width: 50%;
-    height: 50%;
-  }
   .square span:nth-child(1) {
     position: absolute;
     top: 0px;
@@ -20395,39 +13111,6 @@ input.btn.btn-primary {
     height: 30px;
     border-radius: 100px;
     margin-bottom: 10px;
-  }
-  .content .bann-icons {
-    z-index: 20;
-    position: absolute;
-    top: 532px;
-    right: 145px;
-    display: flex;
-    flex-direction: column;
-  }
-  .content .bann-icons .button {
-    float: right;
-    width: 45px;
-    height: 45px;
-    margin-top: 3px;
-    background: var(--light-color);
-    border-radius: 50px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.5s;
-    transition-property: width;
-    position: relative;
-  }
-  .content .bann-icons .one-icon:hover {
-    width: 144px;
-  }
-  .content .bann-icons .two-icon:hover {
-    width: 144px;
-  }
-  .content .bann-icons .three-icon-icon:hover {
-    width: 144px;
-  }
-  .content .bann-icons .four-icon:hover {
-    width: 144px;
   }
   /*-------------------------about-----------------------*/
   #check:checked ~ .content .row {
@@ -20795,12 +13478,6 @@ input.btn.btn-primary {
 }
 }
 @media only screen and (max-width: 277px) {
-  .left-area {
-    letter-spacing: -1px;
-    width: 17%;
-    position: inherit;
-    left: 37px;
-  }
   .special-menu {
     width: 166px;
     position: absolute;
