@@ -13,9 +13,9 @@
     height: 162vh;
 }
  /*-------------------------Works-----------------------*/
-.products-box {
-  height: 131vh;
-  margin-top: -205px;
+ .products-box {
+  height: 104vh;
+  margin-top: -123px;
 }
 }
 
@@ -61,6 +61,11 @@
  .services {
   height: 77vh;
 }
+     /*-------------------------Works-----------------------*/
+.products-box {
+  height: 103vh;
+  margin-top: -106px;
+}
   /*-------------------------Contact-----------------------*/
   .contacts {
       height: 88vh;
@@ -74,6 +79,11 @@
  /*-------------------------Services-----------------------*/
  .services {
   height: 86vh;
+}
+ /*-------------------------Works-----------------------*/
+.products-box {
+  height: 108vh;
+  margin-top: -139px;
 }
    /*-------------------------Contact-----------------------*/
   .contacts {
@@ -146,7 +156,7 @@
     margin: 3px;
 }
   .products-box {
-    height: 242vh;
+    height: 184vh;
     margin-top: -156px;
   }
 }
@@ -180,7 +190,7 @@
  /*-------------------------Works-----------------------*/
 .products-box {
   height: 161vh;
-  margin-top: -195px;
+  margin-top: -148px;
 }
 }
 @media only screen and (max-width: 390px) {
@@ -214,6 +224,7 @@
    /*-------------------------works-style-----------------------*/
 .products-box {
   height: 203vh;
+  margin-top: -145px;
 }
  /*-------------------------Contacts-----------------------*/
 .contacts {
@@ -240,6 +251,10 @@
   .services {
     height: 160vh;
   }
+  /*-------------------------Works-----------------------*/
+  .products-box {
+    height: 179vh;
+}
    /*-------------------------Contact-style-----------------------*/
   .contacts {
       height: 251vh;

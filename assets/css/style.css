@@ -718,12 +718,12 @@ p.footer a:hover {
 
 /*-------------------------------------------------------3. Recent-works-CONTENT-STYLE ------------------------------------------------------*/
 .products-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin-top: -64px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 70%;
+  height: 140vh;
+  margin-top: -150px;
 }
 .special-list {
   width: 80%;
