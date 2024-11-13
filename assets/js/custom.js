@@ -1,83 +1,38 @@
 (function ($) {
     "use strict";
 
-  /* ..............................................
-     Special Menu
-     ................................................. */
+    /**== WOW Animation ==**/
+    new WOW().init();
 
-        var Container = $('.container');
-        Container.imagesLoaded(function () {
-            var portfolio = $('.special-menu');
-            portfolio.on('click', 'button', function () {
-                $(this).addClass('active').siblings().removeClass('active');
-                var filterValue = $(this).attr('data-filter');
-                $grid.isotope({
-                    filter: filterValue
-                });
-            });
-            var $grid = $('.special-list').isotope({
-                itemSelector: '.special-grid'
-            });
-        });
-        /* ..............................................
-           Featured Products
-           ................................................. */
+    /**== Loader JS ==*/
+    $(window).on('load', function () {
+        $(".bg_load").fadeOut("slow");
+    });
 
-        $('.featured-products-box').owlCarousel({
-            loop: true,
-            margin: 15,
-            dots: false,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true,
-            navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
-                },
-                600: {
-                    items: 3,
-                    nav: true
-                },
-                1000: {
-                    items: 4,
-                    nav: true,
-                    loop: true
-                }
+    const $navLinks = $(".sidebar a");
+
+    // Function to set active link
+    function setActiveLink() {
+        $navLinks.removeClass("active"); // Remove active class from all links
+        // Check if the current URL matches the link's href
+        const currentPath = window.location.pathname.split("/").pop();
+        $navLinks.each(function() {
+            if ($(this).attr("href") === currentPath) {
+                $(this).addClass("active"); // Add active class to the current link
             }
         });
-        function myMap() {
-        var mapProp = {
-            center: new google.maps.LatLng(40.712775, -74.005973),
-            zoom: 18,
-        };
-        var map = new google.maps.Map(document.getElementById("map-container-google-1"), mapProp);
     }
 
+    // Check on page load
+    setActiveLink();
 
+    // Event listeners for navigation links
+    $navLinks.on("click", function() {
+        // Delay the active link update to allow the page to navigate
+        setTimeout(setActiveLink, 0);
+    });
 
+    // Check when the hash changes (for back/forward navigation)
+    $(window).on("hashchange", setActiveLink);
 
 }(jQuery));
-
-
-                       /*bulb-creative*/
-                        $(document).ready(function () {
-                            $('[data-toggle="tooltip"]').tooltip();
-                        });
-
-function myCv() {
-  var x = document.getElementById("mycv");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-
-
-
-
-
-  

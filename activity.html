@@ -35,7 +35,7 @@
 </head>
 
 <body>
- <input type="checkbox" id="check">
+  <div class="main-container">
     <!-- header start -->
     <header>
       <div class="header-content">
@@ -68,45 +68,62 @@
               </div>
           </div>
       </div>
-  </header>
-  <!-- header end -->
-    <!-- sidebar start -->
-    <div class="sidebar">
-        <div class="profile-img text-center">
-            <h4>name</h4>
+    </header>
+    <!-- header end -->
+    <!-- Start basic-container  -->
+    <div class="basic-container">
+      <input type="checkbox" id="check">
+      <!-- sidebar start -->
+      <div class="sidebar">
+          <div class="profile-img text-center">
+              <h4>name</h4>
+          </div>
+          <a href="index.html" class="active"><i class="fas fa-desktop"></i><span>Home</span></a>
+          <a href="about.html"><i class="fas fa-user"></i><span>About</span></a>
+          <a href="services.html"><i class="fas fa-table"></i><span>Services</span></a>
+          <a href="activity.html"><i class="fas fa-chart-line"></i><span>Activity</span></a>
+          <a href="recent-works.html"><i class="fas fa-th"></i><span>Recent works</span></a>
+          <a href="contact-me.html"><i class="fas fa-info-circle"></i><span>Contacts</span></a>
+      </div>
+      <!-- sidebar end -->
+      <!-- content start -->
+      <div class="side-content">
+        <div class="content-title">
+          <h1>my Activity</h1>
         </div>
-        <a href="index.html" class="active"><i class="fas fa-desktop"></i><span>Home</span></a>
-        <a href="about.html"><i class="fas fa-user"></i><span>About</span></a>
-        <a href="services.html"><i class="fas fa-table"></i><span>Services</span></a>
-        <a href="activity.html"><i class="fas fa-chart-line"></i><span>Activity</span></a>
-        <a href="recent-works.html"><i class="fas fa-th"></i><span>Recent works</span></a>
-        <a href="contact-me.html"><i class="fas fa-info-circle"></i><span>Contacts</span></a>
+        <div id="graph">
+        <div class="graph1">
+            <canvas id="myChart1"></canvas>
+        </div>
+            <div class="graph2">
+            <canvas id="myChart2"></canvas>
+          </div>
+        </div>   
+      </div>
+      <!-- content end -->
     </div>
-    <!-- sidebar end -->
-    <!-- content start -->
-    <div class="content-active">
-	<div class="content-title">
-	   <h1>my Activity</h1>
-	</div>
-           <div id="graph">
-            <div class="graph1">
-                <canvas id="myChart1"></canvas>
-            </div>
-               <div class="graph2">
-                <canvas id="myChart2"></canvas>
-             </div>
-           </div>   
+    <!-- End basic-container -->
+    <!-- Start copyright  -->
+    <div class="footer-container">
+      <p class="footer">All Rights Reserved. &copy; 2021 <a href="index.html">Protofolio</a> Design By :
+        <a href="#">En:elsaeed ellisy</a></p>
+    </div>
+    <!-- End copyright  -->
   </div>
-    <!-- content end -->
 	<div class="clear"></div>
-	<!-- content end -->
-	<!-- ALL JS FILES -->
-	<script src="assets/js/cv-dropdown.js"></script>
-	<script src="assets/js/jquery-3.2.1.min.js"></script>
-	<script src="assets/js/jquery.js.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<!-- js section -->
+<!-- wow animation -->
+<script src="assets/js/wow.js"></script>
+<!-- ALL PLUGINS -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/hizoom.js"></script>
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<!-- Js files-->
+<script src="assets/js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 	<script>
 var xValues = ["activity", "activity", "activity"];
 var yValues = ["10","20","30",];
