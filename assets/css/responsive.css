@@ -10,7 +10,12 @@
   }
      /*-------------------------Contact-----------------------*/
   .contacts {    
-    height: 158vh;
+    height: 162vh;
+}
+ /*-------------------------Works-----------------------*/
+.products-box {
+  height: 131vh;
+  margin-top: -205px;
 }
 }
 
@@ -33,7 +38,7 @@
 }
   /*-------------------------Contact-----------------------*/
 .contacts {
-  height: 106vh;
+  height: 91vh;
 }
 }
 @media only screen and (max-width: 853px) {
@@ -58,7 +63,7 @@
 }
   /*-------------------------Contact-----------------------*/
   .contacts {
-      height: 123vh;
+      height: 88vh;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -72,7 +77,7 @@
 }
    /*-------------------------Contact-----------------------*/
   .contacts {
-      height: 141vh;
+      height: 99vh;
   }
 }
 @media only screen and (max-width: 540px) {
@@ -140,6 +145,10 @@
     font-size: 10px;
     margin: 3px;
 }
+  .products-box {
+    height: 242vh;
+    margin-top: -156px;
+  }
 }
 @media only screen and (max-width: 430px) {
     /*-------------------------About-----------------------*/
@@ -162,13 +171,17 @@
  }
  /*-------------------------Contacts-----------------------*/
  .contacts {
-   height: 205vh;
+   height: 210vh;
 }
  /*-------------------------Services-----------------------*/
 .services {
   height: 132vh;
 }
-
+ /*-------------------------Works-----------------------*/
+.products-box {
+  height: 161vh;
+  margin-top: -195px;
+}
 }
 @media only screen and (max-width: 390px) {
     /*-------------------------About-----------------------*/
@@ -197,6 +210,14 @@
     padding-left: 4px;
     margin-left: 2px;
     font-size: 12px;
+}
+   /*-------------------------works-style-----------------------*/
+.products-box {
+  height: 203vh;
+}
+ /*-------------------------Contacts-----------------------*/
+.contacts {
+  height: 277vh;
 }
 }
 @media only screen and (max-width: 360px) {
@@ -233,6 +254,10 @@
   .contacts {
       height: 210vh;
   }
+      /*-------------------------Works-style-----------------------*/
+  .products-box {
+    height: 146vh;
+}
 }
 @media only screen and (max-width: 280px) {
   /*-------------------------About-----------------------*/

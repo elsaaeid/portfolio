@@ -765,6 +765,9 @@ p.footer a:hover {
   overflow: hidden;
   position: relative;
 }
+.box-img-hover img {
+  width: 100%;
+}
 /*-------------------------------------------------------3. Activity-STYLE ------------------------------------------------------*/ 
 div#graph {
   display: flex;
