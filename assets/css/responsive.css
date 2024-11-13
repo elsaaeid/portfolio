@@ -7,7 +7,7 @@
 }
   /*-------------------------Activities-----------------------*/
 .chart-container {
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
   height: 200px; /* Set a height for the chart */
 }
 }
@@ -75,7 +75,6 @@
 }
   /*-------------------------Activities-----------------------*/
   .chart-container {
-    width: 100%; /* Full width */
     height: 150px; /* Set a height for the chart */
   }
 }
