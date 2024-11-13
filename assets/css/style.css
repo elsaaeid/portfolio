@@ -302,7 +302,7 @@ label #sidebar-btn:hover {
   display: none;
 }
 /*-------------------------------------------------------2. HOME-CONTENT-STYLE ------------------------------------------------------*/
-.home-content {
+.content-home {
   width: 90%;
   margin-left: 10%;
 }
