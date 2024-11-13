@@ -5,6 +5,11 @@
     margin-left: 4px;
     font-size: 14px;
 }
+  /*-------------------------Activities-----------------------*/
+.chart-container {
+  width: 100%; /* Full width */
+  height: 200px; /* Set a height for the chart */
+}
 }
 @media only screen and (max-width: 540px) {
   /*-------------------------main-style-----------------------*/
@@ -68,6 +73,11 @@
     margin-left: 2px;
     font-size: 12px;
 }
+  /*-------------------------Activities-----------------------*/
+  .chart-container {
+    width: 100%; /* Full width */
+    height: 150px; /* Set a height for the chart */
+  }
 }
 @media only screen and (max-width: 360px) {
    /*-------------------------footer-style-----------------------*/

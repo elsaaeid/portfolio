@@ -100,12 +100,12 @@
           <h1>my Activity</h1>
         </div>
         <div id="graph">
-        <div class="graph1">
-            <canvas id="myChart1"></canvas>
-        </div>
-            <div class="graph2">
-            <canvas id="myChart2"></canvas>
+          <div class="chart-container">
+              <canvas id="myChart1"></canvas>
           </div>
+          <div class="chart-container">
+          <canvas id="myChart2"></canvas>
+        </div>
         </div>   
       </div>
       <!-- content end -->
@@ -133,52 +133,56 @@
 <script src="assets/js/custom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 	<script>
-var xValues = ["activity", "activity", "activity"];
-var yValues = ["10","20","30",];
-var barColors = [
-  "#ffffff",
-  "#0b7c4a",
-  "#0b7c4a",
-];
+    var xValues1 = ["activity", "activity", "activity"];
+    var yValues1 = [10, 20, 30];
+    var barColors1 = [
+        "#ffffff",
+        "#0b7c4a",
+        "#0b7c4a",
+    ];
 
-new Chart("myChart1", {
-  type: "pie",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    title: {
-      display: true,
-      text: "My Practical Activities"
-    }
-  }
-});
+    new Chart("myChart1", {
+        type: "pie",
+        data: {
+            labels: xValues1,
+            datasets: [{
+                backgroundColor: barColors1,
+                data: yValues1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            title: {
+                display: true,
+                text: "My Practical Activities"
+            }
+        }
+    });
 
-var xValues = ["activity", "activity", "activity", "activity"];
-var yValues = [50, 40, 30, 20];
-var barColors = ["#0b7c4a", "#ffffff","#c1c1c1","#c1c1c1"];
+    var xValues2 = ["activity", "activity", "activity", "activity"];
+    var yValues2 = [50, 40, 30, 20];
+    var barColors2 = ["#0b7c4a", "#ffffff", "#c1c1c1", "#c1c1c1"];
 
-new Chart("myChart2", {
-  type: "bar",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-      text: " Activities Production 2021"
-    }
-  }
-});
+    new Chart("myChart2", {
+        type: "bar",
+        data: {
+            labels: xValues2,
+            datasets: [{
+                backgroundColor: barColors2,
+                data: yValues2
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: { display: false },
+            title: {
+                display: true,
+                text: "Activities Production 2021"
+            }
+        }
+    });
 </script>
 </body>
 

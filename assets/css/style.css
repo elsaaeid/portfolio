@@ -805,14 +805,21 @@ div#graph {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
   width: 100%;
+  margin-top: 10rem;
 }
-.graph1, .graph2 {
+.chart-container {
+  position: relative; /* Required for responsive charts */
+  width: 100%; /* Full width */
+  height: 400px; /* Set a height for the chart */
+  margin-bottom: 20px; /* Space between charts */
   border-radius: 7px;
-  width: 50%;
 }
-.graph1:hover, 
-.graph2:hover {
+
+canvas {
+  width: 100% !important; /* Ensure canvas takes full width */
+  height: 100% !important; /* Ensure canvas takes full height */
+}
+.chart-container:hover {
     background-color: var(--submit-color);
 }
