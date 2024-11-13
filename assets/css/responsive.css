@@ -1,8 +1,12 @@
 
 @media only screen and (max-width: 1024px) {
+      /*-------------------------about-style-----------------------*/
+      .about {
+        height: 93vh;
+    }
     /*-------------------------services-----------------------*/
     .services {
-      height: 84vh;
+      height: 88vh;
   }
      /*-------------------------Contact-----------------------*/
   .contacts {    
@@ -23,12 +27,20 @@
     margin-left: 4px;
     font-size: 14px;
 }
+ /*-------------------------Services-----------------------*/
+ .services {
+  height: 67vh;
+}
   /*-------------------------Contact-----------------------*/
 .contacts {
   height: 106vh;
 }
 }
 @media only screen and (max-width: 853px) {
+   /*-------------------------Services-----------------------*/
+ .services {
+  height: 71vh;
+}
     /*-------------------------Contact-----------------------*/
   .contacts {
       height: 74vh;
@@ -36,12 +48,28 @@
 }
 
 @media only screen and (max-width: 820px) {
+      /*-------------------------about-style-----------------------*/
+      .about {
+        height: 48vh;
+    }
+     /*-------------------------Services-----------------------*/
+ .services {
+  height: 77vh;
+}
   /*-------------------------Contact-----------------------*/
   .contacts {
       height: 123vh;
   }
 }
 @media only screen and (max-width: 768px) {
+    /*-------------------------about-style-----------------------*/
+  .about {
+    height: 54vh;
+}
+ /*-------------------------Services-----------------------*/
+ .services {
+  height: 86vh;
+}
    /*-------------------------Contact-----------------------*/
   .contacts {
       height: 141vh;
@@ -118,6 +146,10 @@
   .about {
     height: 53vh;
 }
+ /*-------------------------Services-----------------------*/
+ .services {
+  height: 127vh;
+}
  /*-------------------------Contacts-----------------------*/
   .contacts {
       height: 199vh;
@@ -132,12 +164,23 @@
  .contacts {
    height: 205vh;
 }
+ /*-------------------------Services-----------------------*/
+.services {
+  height: 132vh;
+}
+
 }
 @media only screen and (max-width: 390px) {
     /*-------------------------About-----------------------*/
   .about {
     height: 60vh;
 }
+
+ /*-------------------------Services-----------------------*/
+ .services {
+  height: 141vh;
+}
+ /*-------------------------Contacts-----------------------*/
   .contacts {
       height: 220vh;
   }
@@ -162,6 +205,9 @@
     font-size: 12px;
   }
    /*-------------------------About-style-----------------------*/
+   .about {
+    height: 64vh;
+}
    .skills div h4, 
    .content-career div h4, 
    .content-career section h5, 
@@ -169,12 +215,20 @@
    .progress-bar {
      font-size: 12px;
  }
+  /*-------------------------Services-----------------------*/
+  .services {
+    height: 160vh;
+  }
    /*-------------------------Contact-style-----------------------*/
   .contacts {
       height: 251vh;
   }
 }
 @media only screen and (max-width: 344px) {
+   /*-------------------------Services-----------------------*/
+ .services {
+  height: 136vh;
+}
      /*-------------------------Contact-style-----------------------*/
   .contacts {
       height: 210vh;
