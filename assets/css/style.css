@@ -325,7 +325,7 @@ label #sidebar-btn:hover {
   font-size: 15px;
 }
 .side-content .banner {
-  background: url(../img/banner.PNG);
+  background: url(../img/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
