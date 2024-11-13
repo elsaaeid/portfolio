@@ -279,7 +279,7 @@ label #sidebar-btn {
   transition-property: color;
 }
 label #sidebar-btn:hover {
-  color: var(--dark-color);
+  color: var(--grey-color);
   transition: ease-in-out 0.5s;
 }
 .sidebar a span {
