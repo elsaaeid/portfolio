@@ -18,7 +18,7 @@
   --dark-color: #222;
   --sem-light-color: #f7f7f7;
   --grey-color: #c1c1c1;
-  --secondary-color: #87bb89;
+  --secondary-color: #87bb89c4;
   --basic-color: #009468;
   --submit-color: #a3de93;
 }
@@ -349,7 +349,7 @@ label #sidebar-btn:hover {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgb(101 175 41 / 72%);
+  background: var(--secondary-color);
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
